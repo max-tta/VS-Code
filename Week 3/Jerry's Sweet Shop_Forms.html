@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <section id="overlay">
+      <img src="https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Fsundaytimes%2Fprod%2Fweb%2Fbin%2F999d9dde-4f96-11ec-af57-5ced7ba50c2d.jpg" 
+      width="400" height="250" alt="Jerry's Sweet Shop" id="logo">
+      <hr>
+          <h1>This is a sweet shop.</h1>
+          <p>Get your favourite sweets here!</p>
+          <br>
+          <ul>
+            <li>Skittles</li>
+            <li>Chocolate raisins</li>
+            <li>Fizzy worms</li>
+            <li>Sherbert lemons</li>
+          </ul>
+          <h2><span>Place your order below:</span></h2>
+          <br><br>
+         
+        <form action="/example.html" method="POST">
+            <section class="name"
+                <label for="user_name">Please enter your name here:</label>
+                <input type="text" name="user_name" id="user_name">
+             </section>
+            <br><br><!-- 2 line blank-->
+
+            <section class="sweets_main"
+               <label for="sweets_name">Sweets name:</label>
+               <input type="sweets_name" id="sweets_name" name="sweets_name">
+            </section>
+            <br><br><!--2 line blank-->
+
+            <section class="amount"
+                <label for="amount">How many packets would you like?</label>
+                <input id="amount" type="number" step="1" name="amount">
+            </section>
+
+            <section class="extras"
+              <input id="strawberrylaces" name="extras" type="checkbox" value="strawberrylaces">
+                <label for="strawberrylaces">Strawberry Laces</label>
+
+          </form>
+    </section>
+  </body>
+</html>
